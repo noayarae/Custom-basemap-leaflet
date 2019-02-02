@@ -1,0 +1,74 @@
+* {margin: 0;padding: 0;}
+#line1 {height: 45px; margin: 0px auto 10px auto;}
+#line2 {height: 90px; margin: 0px auto 0px auto;}
+#line3 {height: 450px; margin: 0px auto 10px auto;}
+#line4 {height: 40px; margin: 0px auto 10px auto;}
+
+/*[id^='line'] { border: 1px solid blue; } !* For visualizing line's frames (for testing)*!*/
+
+/*header, .main, .row, footer {*/
+    /*width: 95%;*/
+    /*margin: 10px auto;*/
+/*}*/
+
+.wrapper2 {
+    margin: 0px auto 0px auto;
+    width: 98%;
+    height: inherit;
+    display: block;
+    /*clear:both;*/
+}
+
+/* Specific for Line1*/
+.logo {
+    width: 150px;
+    margin-left: 2%;
+}
+
+#main-t{
+    color: grey;
+}
+
+h2{
+     font-family: "Arial Black";
+     font-size: 120%;
+     color: orangered;
+ }
+
+/* For Map */
+.intermedia {
+    height: inherit;
+    display: inline-flex;
+}
+
+.main {
+    height: inherit;
+}
+
+.side_left{
+    height: inherit;
+    width: 200px;
+}
+.side_map{
+    height: inherit;
+    width: 1000px;
+}
+
+#map {
+    height: inherit;
+    /*height: 500px;*/
+}
+.legend {
+    background : white;
+    line-height : 1.5em
+}
+.legend i {
+    width : 5em;
+    float : left
+}
+
+/*  Footer  */
+.foot1{
+    width: 5%;
+    float: left;
+}
